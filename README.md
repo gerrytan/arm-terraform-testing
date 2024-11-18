@@ -4,7 +4,7 @@ Tests the candidate package for `@azure/arm-terraform`.
 
 To run the test:
 
-1. Download `@azure/arm-terraform` candidate package from [this link](https://github.com/Azure/sdk-release-request/issues/5663#issuecomment-2481858036). Place it on the same level such as the relative path on package.json resolves
+1. Download `@azure/arm-terraform` candidate package from [this link](https://github.com/Azure/sdk-release-request/issues/5663#issuecomment-2481858036). Place it on the same level as this repo such that the relative path on package.json resolves.
 1. `npm install`
 1. `source env-vars.sh` to setup necessary environment variables, see env-vars-example.sh
 1. Run `npm start`
