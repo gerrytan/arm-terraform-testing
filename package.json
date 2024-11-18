@@ -1,0 +1,16 @@
+{
+  "name": "arm-terraform-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@azure/arm-terraform": "file:../azure-arm-terraform-1.0.0-beta.1/azure-arm-terraform-1.0.0-beta.1.tgz",
+    "@azure/identity": "^4.5.0"
+  }
+}
